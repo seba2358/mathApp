@@ -92,7 +92,7 @@ export default function CheckingForm() {
 					type="submit"
 					className="mt-6 w-5/12 self-end py-1 rounded-md bg-stone-500 text-stone-100 hover:bg-stone-600 hover:text-stone-200"
 				>
-					Zaloguj
+					Zaloguj się
 				</button>
 			</form>
 		</div>
