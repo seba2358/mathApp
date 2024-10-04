@@ -17,7 +17,7 @@ export default function Header() {
 				className="px-4 py-2 bg-blue-400 rounded-md text-blue-100 hover:bg-blue-600 text-stone-200"
 				onClick={showTest}
 			>
-				Wygeneruj losowy arkusz
+				Wygeneruj arkusz
 			</button>
 		</div>
 	);
