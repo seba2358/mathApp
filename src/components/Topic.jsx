@@ -21,9 +21,14 @@ export default function Topic({ topic }) {
 					</div>
 				</div>
 			) : (
-				<div className="flex mb-2">
+				<div className="flex flex-col md:flex-row gap-1 md:gap-2 items-start md:items-center mb-4 md:mb-2">
 					<h3 className="text-l">{topic.topicTitle}</h3>
-					<Button onClick={handleShowTasks}>Pokaż zadania ↓↓</Button>
+					<button
+						className="px-2 py-1 bg-stone-400 rounded-md text-stone-100 hover:bg-stone-600 hover:text-stone-200"
+						onClick={handleShowTasks}
+					>
+						Pokaż zadania ↓↓
+					</button>
 				</div>
 			)}
 		</div>

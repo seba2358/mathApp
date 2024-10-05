@@ -8,7 +8,7 @@ export default function Task({ task }) {
 		setShowScore(true);
 	}
 	return (
-		<div className="flex mb-2">
+		<div className="flex flex-col md:flex-row mb-4 md:mb-2 gap-1">
 			<p key={task.text}>
 				{task.number}. {task.text}
 			</p>
