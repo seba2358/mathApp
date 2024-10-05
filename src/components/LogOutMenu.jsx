@@ -15,7 +15,7 @@ export default function LogOutMenu({ users }) {
 		setShowLogOutOption(false);
 	}
 	return (
-		<div className="mr-2 flex absolute end-0">
+		<div className="mr-2 flex absolute end-0 py-1 lg:py-2">
 			<div className="flex flex-col items-center gap-0 text-blue-300">
 				<p className="text-l">{users.users[1].name}</p>
 				<span className="text-xs">({users.users[1].indeks})</span>

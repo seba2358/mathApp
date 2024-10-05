@@ -110,7 +110,7 @@ function App() {
 						{MATH_SECTIONS.map((section) => (
 							<li className="ms-2 py-2 md:py-0" key={section.id}>
 								<button
-									className="flex text-start"
+									className="flex text-start wrap"
 									onClick={() => handleShowChosenSection(section.id)}
 								>
 									{section.title}

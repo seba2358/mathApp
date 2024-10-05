@@ -4,10 +4,10 @@ import { SectionContext } from "../store/section-cart-context";
 export default function Header() {
 	const { showTest } = useContext(SectionContext);
 	return (
-		<div className="flex flex-col items-center justify-stretch gap-2 w-6/12 md:w-8/12 px-4 mt-8">
+		<div className="flex flex-col items-center justify-stretch gap-2 w-8/12 px-4 mt-8">
 			<div className="flex flex-col items-center mb-4">
 				<img src={NOTEBOOK} className="w-32 h-32" alt="An empty notebook" />
-				<p className="mt-2">Nott wybrano żadnego działu do powtórki.</p>
+				<p className="mt-2">Nie wybrano żadnego działu do powtórki.</p>
 				<p>
 					Wybierz dział z listy po lewej stronie lub wygeneruj losowy arkusz
 					klikając przycisk poniżej.
