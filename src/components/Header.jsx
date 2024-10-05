@@ -4,7 +4,7 @@ import { SectionContext } from "../store/section-cart-context";
 export default function Header() {
 	const { showTest } = useContext(SectionContext);
 	return (
-		<div className="flex flex-col justify-center items-center gap-2 w-2/3 h-screen ms-4">
+		<div className="flex flex-col justify-center items-center gap-2 w-7/12 md:w-8/12 h-full px-4 py-4">
 			<div className="flex flex-col items-center mb-4">
 				<img src={NOTEBOOK} className="w-32 h-32" alt="An empty notebook" />
 				<p className="mt-2">Nott wybrano żadnego działu do powtórki.</p>

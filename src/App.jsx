@@ -108,8 +108,8 @@ function App() {
 				<main className="flex bg-stone-200">
 					<ProjectSideBar users={showUsers}>
 						{MATH_SECTIONS.map((section) => (
-							<li className="ms-2 " key={section.id}>
-								<button onClick={() => handleShowChosenSection(section.id)}>
+							<li className="ms-2" key={section.id}>
+								<button className='flex' onClick={() => handleShowChosenSection(section.id)}>
 									{section.title}
 								</button>
 							</li>

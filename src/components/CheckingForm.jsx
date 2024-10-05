@@ -17,7 +17,7 @@ export default function CheckingForm() {
 	}
 
 	return (
-		<div className="flex justify-center items-center h-screen bg-stone-500">
+		<div className="h-screen flex justify-center items-center bg-stone-500 px-4 py-4">
 			<form
 				noValidate
 				onSubmit={handleSubmit(onSubmit)}
