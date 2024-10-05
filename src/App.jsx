@@ -90,8 +90,8 @@ function App() {
 		content = <SelectedMathSection section={selectedSection} />;
 	}
 
-	const randomTopicId = Math.floor(2 * Math.random() + 1)
-	const randomTaskNumber = Math.floor(2 * Math.random() + 1)
+	const randomTopicId = Math.floor(2 * Math.random() + 1);
+	const randomTaskNumber = Math.floor(2 * Math.random() + 1);
 	const ctxSectionValue = {
 		cancelCheckForm: handleCancelCheckForm,
 		showTest: handleShowRandomTest,
@@ -108,14 +108,16 @@ function App() {
 				<main className="flex bg-stone-200">
 					<ProjectSideBar users={showUsers}>
 						{MATH_SECTIONS.map((section) => (
-							<li className="ms-2" key={section.id}>
-								<button className='flex' onClick={() => handleShowChosenSection(section.id)}>
+							<li className="ms-2 py-2 md:py-0" key={section.id}>
+								<button
+									className="flex text-start"
+									onClick={() => handleShowChosenSection(section.id)}
+								>
 									{section.title}
 								</button>
 							</li>
 						))}
 					</ProjectSideBar>
-
 					{content}
 				</main>
 			)}
