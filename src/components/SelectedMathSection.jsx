@@ -5,7 +5,7 @@ import { useContext } from "react";
 export default function SelectedMathSection({ section }) {
 	const { cancelSection } = useContext(SectionContext);
 	return (
-		<section className="flex w-8/12 h-full py-4 px-1.5 justify-center items-start bg-stone-300">
+		<section className="relative flex flex-col-reverse  md:flex-row w-8/12 h-full py-4 px-1.5 justify-center items-start bg-stone-300">
 			<div className="px-2 ">
 				<h2 className="text-2xl uppercase text-stone-700 mb-8">
 					{section.title}
@@ -19,7 +19,7 @@ export default function SelectedMathSection({ section }) {
 				</ul>
 			</div>
 			<button
-				className="px-2 md:px-4 py-1 md:py-2 bg-blue-400 rounded-md text-blue-300 hover:bg-blue-600 text-stone-200"
+				className="fixed top-2 md:top-4 right-2 md:right-4 px-2 md:px-6 py-1 md:py-3 mx-auto bg-blue-400 rounded-md text-blue-300 hover:bg-blue-600 text-stone-200"
 				onClick={cancelSection}
 			>
 				{" "}

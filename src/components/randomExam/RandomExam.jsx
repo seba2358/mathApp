@@ -11,7 +11,7 @@ export default function RandomExam({ children }) {
 			</div>
 			<button
 				onClick={cancelSection}
-				className="fixed top-4 right-4 px-4 py-2 bg-blue-400 rounded-md text-blue-300 hover:bg-blue-600 text-stone-200"
+				className="fixed top-2 md:top-4 right-2 md:right-4 px-2 md:px-6 py-1 md:py-3 mx-auto bg-blue-400 rounded-md text-blue-300 hover:bg-blue-600 text-stone-200"
 			>
 				Zamknij
 			</button>
