@@ -52,7 +52,7 @@ export default function CheckingForm() {
 				{errors.name && (
 					<span className="text-red-600 text-xs">{errors.name.message}</span>
 				)}
-				<label className="text-l mt-3" htmlFor="name">
+				<label className="text-l mt-3" htmlFor="email">
 					Email
 				</label>
 				<input
