@@ -1,4 +1,5 @@
 import { SectionContext } from "../store/section-cart-context";
+import CloseButton from "./CloseButton";
 import Topic from "./Topic";
 import { useContext } from "react";
 
@@ -18,13 +19,12 @@ export default function SelectedMathSection({ section }) {
 					))}
 				</ul>
 			</div>
-			<button
-				className="fixed top-2 md:top-4 right-2 md:right-4 px-2 md:px-6 py-1 md:py-3 mx-auto bg-blue-400 rounded-md text-blue-300 hover:bg-blue-600 text-stone-200"
+			<CloseButton
 				onClick={cancelSection}
 			>
 				{" "}
 				Zamknij
-			</button>
+			</CloseButton>
 		</section>
 	);
 }

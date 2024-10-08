@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Button from "./Button";
 import Task from "./Task";
 
 export default function Topic({ topic }) {
