@@ -17,3 +17,11 @@ Live: https://math-mature-app.netlify.app/
 * React
 * Tailwind CSS
 
+### My learning progress:
+* repetition of creating components and their interconnections
+* repetition of using react hooks: useState, useContext, useForm
+* repetition of using js functions: map, find
+
+### Screenshots
+![mathApp-checkingForm](./src/assets/checkForm.png)
+![mathApp-selectedMathSection](./src/assets/checkForm.png)
