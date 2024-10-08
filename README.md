@@ -1,11 +1,11 @@
 ﻿# Mature Repetition Platform
 
 ### How to run
-`git clone https://github.com/seba2358/mathApp.git`
+1. `git clone https://github.com/seba2358/mathApp.git`
 
-`npm i`
+2. `npm i`
 
-`npm run dev`
+3. `npm run dev`
 
 
 ### Overview
