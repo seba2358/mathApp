@@ -67,6 +67,7 @@ function App() {
 			};
 		});
 		handleCancelSection();
+		window.location.reload()
 	}
 
 	const selectedSection = MATH_SECTIONS.find(
