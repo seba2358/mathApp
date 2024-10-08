@@ -40,7 +40,7 @@ export default function CheckingForm() {
 					{...register("name", {
 						required: "Podaj nazwę użytkownika",
 						pattern: {
-							value: /^[a-z0-9]{1,5}$/,
+							value: /^[a-z0-9]$/,
 							message: 'Nazwa użytkownika musi składać się maksymalnie z 5 znaków'
 						}
 					})}
