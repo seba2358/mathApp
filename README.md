@@ -23,5 +23,5 @@ Live: https://math-mature-app.netlify.app/
 * repetition of using js functions: map, find
 
 ### Screenshots
-![mathApp-checkingForm](./src/assets/checkForm.png)
+![mathApp-checkingForm](./src/assets/randomExam.png)
 ![mathApp-selectedMathSection](./src/assets/selectedMathSection.png)
