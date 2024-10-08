@@ -1,6 +1,6 @@
 ﻿# Mature Repetition Platform
 
-### How to run
+## How to run
 1. `git clone https://github.com/seba2358/mathApp.git`
 
 2. `npm i`
@@ -8,24 +8,24 @@
 3. `npm run dev`
 
 
-### Overview
+## Overview
 <p>The Mature Repetition Platform is intended for all students of the ABC school in city XYZ.<p>
 <p>The student can repeat a selected mathematical section or generate a random test containing tasks from all 17 sections. Each task also contains an answer.</p>
 
-### Live
+## Live
 https://math-mature-app.netlify.app/
 <sub> <-- The platform can be used on all types of devices</sub>
 
-### Technologies
+## Technologies
 * JavaScript
 * React
 * Tailwind CSS
 
-### My learning progress
+## My learning progress
 * repetition of creating components and their interconnections
 * repetition of using react hooks: useState, useContext, useForm
 * repetition of using js functions: map, find
 
-### Screenshots
+## Screenshots
 ![mathApp-checkingForm](./src/assets/randomExam.png)
 ![mathApp-selectedMathSection](./src/assets/selectedMathSection.png)
