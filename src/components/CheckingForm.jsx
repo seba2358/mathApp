@@ -47,7 +47,6 @@ export default function CheckingForm() {
 					})}
 					className={inputClasses}
 					id="name"
-					type="text"
 				/>
 				{errors.name && (
 					<span className="text-red-600 text-xs">{errors.name.message}</span>
