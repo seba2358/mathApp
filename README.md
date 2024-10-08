@@ -1,8 +1,8 @@
 ﻿# Mature Repetition Platform
 
 ### How to run
-<p>npm i / npm install</p>
-<p>npm run dev</p>
+`npm i` / `npm install`
+`npm run dev`
 
 
 ### Overview
