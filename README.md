@@ -24,4 +24,4 @@ Live: https://math-mature-app.netlify.app/
 
 ### Screenshots
 ![mathApp-checkingForm](./src/assets/checkForm.png)
-![mathApp-selectedMathSection](./src/assets/checkForm.png)
+![mathApp-selectedMathSection](./src/assets/selectedMathSection.png)
