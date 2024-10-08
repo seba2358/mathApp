@@ -1,7 +1,9 @@
 ﻿# Mature Repetition Platform
 
 ### How to run
-`npm i` / `npm install`
+`git clone https://github.com/seba2358/mathApp.git`
+
+`npm i`
 
 `npm run dev`
 
@@ -12,12 +14,13 @@
 
 Live: https://math-mature-app.netlify.app/
 <sub> <-- The platform can be used on all types of devices</sub>
-### Technologies:
+
+### Technologies
 * JavaScript
 * React
 * Tailwind CSS
 
-### My learning progress:
+### My learning progress
 * repetition of creating components and their interconnections
 * repetition of using react hooks: useState, useContext, useForm
 * repetition of using js functions: map, find
