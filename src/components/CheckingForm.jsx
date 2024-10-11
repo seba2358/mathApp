@@ -39,7 +39,11 @@ export default function CheckingForm() {
 				<input
 					{...register("name", {
 						required: "Podaj nazwę użytkownika",
-						
+						maxLength: {
+							value: 5,
+							message:
+								"Twoja nazwa użytkownika musi się składać z max 5 znaków",
+						},
 					})}
 					className={inputClasses}
 					id="name"

@@ -1,12 +1,12 @@
-import Header from "./components/Header";
 import ProjectSideBar from "./components/ProjectSideBar";
 import { MATH_SECTIONS } from "../src/mathSections.js";
-import { useState } from "react";
-import SelectedMathSection from "./components/SelectedMathSection.jsx";
 import CheckingForm from "./components/CheckingForm.jsx";
+import { SectionContext } from "./store/section-cart-context.jsx";
+import SelectedMathSection from "./components/SelectedMathSection.jsx";
+import { useState } from "react";
+import Header from "./components/Header.jsx";
 import RandomExam from "./components/randomExam/RandomExam.jsx";
 import RandomSelectedExamTask from "./components/randomExam/RandomSelectedExamTask.jsx";
-import { SectionContext } from "./store/section-cart-context.jsx";
 
 function App() {
 	const [showUsers, setShowUsers] = useState({
@@ -67,7 +67,7 @@ function App() {
 			};
 		});
 		handleCancelSection();
-		window.location.reload()
+		window.location.reload();
 	}
 
 	const selectedSection = MATH_SECTIONS.find(
@@ -101,6 +101,7 @@ function App() {
 		randomTopicId: randomTopicId,
 		randomTaskNumber: randomTaskNumber,
 	};
+
 	return (
 		<SectionContext.Provider value={ctxSectionValue}>
 			{showUsers.showCheckForm ? (
